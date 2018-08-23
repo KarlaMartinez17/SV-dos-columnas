@@ -1,0 +1,32 @@
+.col-red{
+   
+    background-color: red;
+    max-width: 100%;
+    min-width: 50%;
+    width: 50%;
+    height: 98vh;
+    float: left;
+}
+
+.col-blue{
+     
+    background-color: blue;
+    max-width: 100%;
+    min-width: 50%;
+    width: 50%;
+    height:98vh;
+    float: left;
+}
+
+@media (max-width: 576px) { 
+
+    .col-red{
+       width: 100%;
+    
+    }
+    
+    .col-blue{
+           width:100%;
+            
+    }
+ }
